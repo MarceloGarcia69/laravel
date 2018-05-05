@@ -79,7 +79,8 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Laravel  Marcelo G
+
                 </div>
 
                 <div class="links">

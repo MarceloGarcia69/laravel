@@ -18,9 +18,6 @@ class CreateProveedorTable extends Migration
             $table->string('razon_social');
             $table->string('domicilio');        
             $table->integer('codpostal');
-            $table->integer('localidad');        
-            $table->integer('sucursal');   
-            $table->integer('sitiva');     
             $table->unsignedInteger('localidad_id'); //clave foranea. Es el id de paises para la relacion
             $table->foreign('localidad_id')->references('id')->on('localidades');//Indica con que tabla es la 
             //relacion

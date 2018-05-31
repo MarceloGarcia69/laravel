@@ -11,10 +11,14 @@
 |
 */
 
-Route::get('/prueba', function () {
-    return view('mipagina');
-});
+Route::get('/proveedores', 'ProveedorController@listado');
 
-Route::get('/prueba2', function () {
-    return view('mipagina');
+Route::get('/ingreso', function () {
+    return view('ingreso');
 });
+ /*esto es para que ingrese directamente al form de login
+ Route::get('/', function () {
+    return view('ingreso');
+});
+*/
+
